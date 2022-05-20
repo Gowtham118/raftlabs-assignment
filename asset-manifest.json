@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/raftlabs-assignment/static/css/main.81de3230.css",
-    "main.js": "/raftlabs-assignment/static/js/main.29923f0e.js",
+    "main.js": "/raftlabs-assignment/static/js/main.7d7be52b.js",
     "index.html": "/raftlabs-assignment/index.html",
     "main.81de3230.css.map": "/raftlabs-assignment/static/css/main.81de3230.css.map",
-    "main.29923f0e.js.map": "/raftlabs-assignment/static/js/main.29923f0e.js.map"
+    "main.7d7be52b.js.map": "/raftlabs-assignment/static/js/main.7d7be52b.js.map"
   },
   "entrypoints": [
     "static/css/main.81de3230.css",
-    "static/js/main.29923f0e.js"
+    "static/js/main.7d7be52b.js"
   ]
 }
