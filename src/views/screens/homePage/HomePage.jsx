@@ -20,8 +20,6 @@ import styles from "./homePage.module.scss";
 const { Header, Footer, Content } = Layout;
 const { Option } = Select;
 
-console.log("initialInput: ", listOfPeople);
-
 const HomePage = () => {
   const [firstPerson, setFirstPerson] = useState("");
   const [secondPerson, setSecondPerson] = useState("");
@@ -48,8 +46,6 @@ const HomePage = () => {
         return <p>{e.join(" > ")}</p>;
       })
     );
-
-    console.log("display", displayResult);
   };
   const handleAddAPersonInputChangeClick = (e) => {
     setNewPerson(e);

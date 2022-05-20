@@ -2,7 +2,7 @@
   "name": "raftlabs-problem-1",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://gowtham118.github.io",
+  "homepage": "https://gowtham118.github.io/raftlabs-assignment/",
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
     "@testing-library/jest-dom": "^5.16.4",
