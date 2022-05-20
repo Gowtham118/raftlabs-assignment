@@ -3,9 +3,9 @@ let listOfPeople = { nodes: [], entityRelations: {} };
 const initialInput = [
   ["Sameer", "Aayushi"],
   ["Aayushi", "Bhaskar"],
-  ["Sameer", "Kamal"],
-  ["Kamal", "Shanti"],
-  ["Shanti", "Bhaskar"],
+  ["Sameer", "Kamalnath Sharma"],
+  ["Kamalnath Sharma", "Shanti Kumar Saha"],
+  ["Shanti Kumar Saha", "Bhaskar"],
 ];
 
 const settingData = (pair) => {
@@ -32,5 +32,4 @@ for (let x of initialInput) {
   settingData(x);
 }
 
-
-export { listOfPeople, initialInput,settingData };
+export { listOfPeople, initialInput, settingData };
