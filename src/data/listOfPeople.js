@@ -16,11 +16,6 @@ const settingData = (pair) => {
   } else {
     listOfPeople.entityRelations[friend1].push(friend2);
   }
-  if (!listOfPeople.entityRelations.hasOwnProperty(friend2)) {
-    listOfPeople.entityRelations[friend2] = [friend1];
-  } else {
-    listOfPeople.entityRelations[friend2].push(friend1);
-  }
   for (let y of pair) {
     if (!listOfPeople.nodes.some((obj) => obj.value === y)) {
       listOfPeople.nodes.push({ label: y, value: y });
